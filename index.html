@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img2">
+        <form action="submit.html" target="_blank">
+            <img class="img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5XaPknTWTxdBcdC3r0_9blSi_8n3rD_2Xg&s"
+                alt="">
+            <br>
+            <label for="Full Name">Full Name</label><br>
+            <input type="text" name="Full Name" id="Full Name" required placeholder="Enter Your Full Name ">
+            <br><br>
+
+            <label for="Date of Birth">Date of Birth</label>
+            <input type="date" name="Date of Birth" id="Date of Birth" required>
+            <br><br>
+
+            <label for="Email Address">Email Address</label>
+            <input type="text" name="Email Address" id="Email Address" required placeholder="Enter Your Email Address ">
+            <br><br>
+
+            <label for="Phone Number">Phone Number</label>
+            <input type="number" name="Phone Number" id="Phone Number" required placeholder="Enter Your Phone Number">
+            <br><br>
+
+            <label for="Highest Qualification">Highest Qualification</label>
+            <input type="text" name="Highest Qualification" id="Highest Qualification" required
+                placeholder="Enter Your Highest Qualification">
+            <br><br>
+
+            <label for="Last Institution Attended">Last Institution Attended</label>
+            <input type="text" name="Last Institution Attended" id="Last Institution Attended" required
+                placeholder="Enter Your Last Institution Attended ">
+            <br><br>
+
+            <label for="Year Of Graduation">Year Of Graduation</label>
+            <input type="number" min="1900" max="2099" placeholder="e.g., 2024" required
+                placeholder="Enter Your Year Of Graduation">
+            <br><br>
+
+            <label for="SDP">Select Desired Program</label><br>
+            <select name="Program" id=""" >
+                <option value="" disabled selected>Select a Program </option> 
+                <option value=" Web Development">Web Development</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Graphic Design ">Graphic Design</option>
+            </select><br><br>
+
+            <fieldset>
+
+                <legend>Additional Courses/Workshops</legend>
+                <label><input class="checkbox" type="checkbox" name="course" value="AI"> Artificial Intelligence</label>
+                <label><input class="checkbox" type="checkbox" name="course" value="IoT"> Internet of Things
+                    (IoT)</label>
+                <label><input class="checkbox" type="checkbox" name="course" value="Blockchain"> Blockchain</label>
+            </fieldset>
+            <br><br>
+
+            <label for="address">Permanent Address</label><br>
+            <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+            <br><br>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city" required>
+            <br><br>
+
+
+            <label for="postalCode">Postal Code</label>
+            <input type="text" id="postalCode" name="postalCode" placeholder="Enter postal code" required>
+            <br>
+            <br>
+
+            <button class="btn " type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+
+
+</html>
